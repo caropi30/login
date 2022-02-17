@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase 11 - Ejercicio 02</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/app.js" async="defer"></script>
+  </head>
+  <body>
+    <video autoplay loop muted>
+      <source src="assets/video/bg-video-1.mp4" type="video/mp4" />
+    </video>
+
+    <main>
+      <figure>
+        <img src="assets/img/ha-logo.svg" alt="Hack Academy Logo" />
+      </figure>
+
+      <form action="" method="POST" class="formInfo">
+        <label for="email">Correo electrónico</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          let
+          placeholder="Ingresar correo..."
+        />
+        <label for="">Contraseña</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Ingresar contraseña..."
+        />
+        <div class="formInfo-bottom">
+          <div class="formInfo-bottom--check">
+            <input type="checkbox" />
+            <label>Recordarme</label>
+          </div>
+          <button id="btnLogIn" type="button">Iniciar sesión</button>
+        </div>
+        <!-- <small class="alert">La contraseña debe tener al menos 8 caractéres</small>
+        <small class="alert">EL correo inresado no es correcto</small>-->
+      </form>
+      <a class="forgotPass" href="#">¿Olvidaste tu contraseña?</a>
+    </main>
+  </body>
+</html>
